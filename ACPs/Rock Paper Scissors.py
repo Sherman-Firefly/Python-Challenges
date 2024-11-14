@@ -19,7 +19,7 @@ def winner(userchoice, compchoice):
 def game():
     print("Rock, paper, scissors. The classic game.")
     while True:
-        userchoice = input("Enter 'rock', 'paper', 'scissors' or 'quit' to exit): ").lower()
+        userchoice = input("Enter 'rock', 'paper', 'scissors' or 'quit' to exit: ").lower()
 
         if userchoice == 'quit':
             print("Bye!")
